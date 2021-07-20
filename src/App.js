@@ -49,6 +49,15 @@ function App() {
         //User has logged in
         console.log(setUser);
         setUser(authUser);
+        
+        if (authUser.displayName) {
+          //don't update username
+        } else {
+          //if we just created someone
+          return authUser.updateProfile({
+            displayName: username,
+          });
+        }
 
       } else {
         //User has logged out
