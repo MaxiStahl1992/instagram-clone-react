@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Cool instagram clone app with basic features like sign in/up, login, comments and posting. Frontend React JS backend firebase. 
+
 ## Available Scripts
 
 In the project directory, you can run:
